@@ -21,6 +21,3 @@ def test_updating_storage():
     simple_storage.store(expected, {"from": account})
     # Assert
     assert expected == simple_storage.retrieve()
-
-
-# During the next coding session deploy to the testnet.
